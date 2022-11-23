@@ -4,7 +4,7 @@ import lombok.Data;
 
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 @Data
 public class AppConfig {
 }
