@@ -1,6 +1,9 @@
 spring:
   application:
     name: demo-games
+  devtools:
+    restart:
+      enabled: true
   profiles:
     active: local
   datasource:
