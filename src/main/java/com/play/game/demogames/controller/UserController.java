@@ -126,7 +126,7 @@ public class UserController {
 
         log.info("sum of all value are {}", sum);
 
-        return Integer.parseInt(num1) * Integer.parseInt(num2);
+        return sum;
     }
 
     ////////////////////////////////////////////###########################

@@ -1,11 +1,15 @@
 spring:
   application:
     name: demo-games
+  security:
+    user:
+      name: sunil
+      password: sunil
   devtools:
     restart:
       enabled: true
   profiles:
-    active: local
+    active: test
   datasource:
     url: jdbc:h2:mem:mydb
     username: sa
